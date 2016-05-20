@@ -1,7 +1,7 @@
 {
-  "name": "ember-data-local-models",
+  "name": "ember-data-local-model",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Addon to manage local-only models with Ember Data",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Michael Swanson <mswanson@1524interactive.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -27,6 +27,7 @@
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
     "ember-cli-jshint": "^1.0.0",
+    "ember-cli-mirage": "0.1.13",
     "ember-cli-qunit": "^1.4.0",
     "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^2.1.0",
@@ -40,7 +41,8 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-data"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"

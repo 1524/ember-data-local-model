@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-data-local-models'
+  name: 'ember-data-local-model'
 };
